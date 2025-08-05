@@ -48,17 +48,32 @@ A simple AES-256-GCM–encrypted CLI password manager for the terminal.
 
 ### From npm
 
+Install the CLI globally so `passwdm` is available on your `PATH`:
+
 ```bash
 npm install -g raspberry-password-manager
 ```
 
-> Once complete, `passwdm` will be available on your `PATH`—no manual linking required.
+*Alternatively*, to include it as a dependency in another project (local install):
+
+```bash
+npm install --save raspberry-password-manager
+```
+
+---
 
 ### From GitHub (development)
 
+Clone the source and link the CLI for development:
+
 ```bash
+# via SSH
+git clone git@github.com:jithinrajtnr/my-password-manager.git
+
+# or via HTTPS
 git clone https://github.com/jithinrajtnr/my-password-manager.git
-cd raspberry-password-manager
+
+cd my-password-manager
 npm install
 npm link
 passwdm init
@@ -80,7 +95,7 @@ This will:
 2. Generate a **32-byte Base64** encryption key.  
 3. Save both to `~/.passwdm/config.json` (file permissions `600`).  
 
-> **Important**: backup your encryption key! If you lose it, stored passwords become irretrievable.
+> **Important**: Backup your encryption key! If you lose it, stored passwords become irretrievable.
 
 ---
 
