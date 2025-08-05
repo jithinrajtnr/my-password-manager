@@ -1,6 +1,6 @@
 {
   "name": "raspberry-password-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple AES-GCM CLI password manager",
   "type": "module",
   "bin": {

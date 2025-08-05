@@ -23,12 +23,14 @@ A simple AES-256-GCM–encrypted CLI password manager for the terminal.
 
 ## Introduction
 
-**`raspberry-password-manager`** (invoked as `passwdm`) is a zero-dependency Node.js CLI tool to:
+**[`raspberry-password-manager`](https://www.npmjs.com/package/raspberry-password-manager)** (invoked as `passwdm`) is a zero-dependency Node.js CLI tool to:
 
 - Generate strong, random passwords.  
 - Encrypt them with AES-256-GCM.  
 - Store them securely in your home directory (`~/.passwdm`).  
 - Protect access via a master application password.  
+
+Source code on GitHub: [jithinrajtnr/my-password-manager](https://github.com/jithinrajtnr/my-password-manager)
 
 ---
 
@@ -54,7 +56,9 @@ Install the CLI globally so `passwdm` is available on your `PATH`:
 npm install -g raspberry-password-manager
 ```
 
-*Alternatively*, to include it as a dependency in another project (local install):
+Or view the package on npm: [https://www.npmjs.com/package/raspberry-password-manager](https://www.npmjs.com/package/raspberry-password-manager)
+
+*Alternatively*, to include it as a dependency in another project:
 
 ```bash
 npm install --save raspberry-password-manager
