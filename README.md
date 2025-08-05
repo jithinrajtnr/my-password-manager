@@ -57,7 +57,7 @@ npm install -g raspberry-password-manager
 ### From GitHub (development)
 
 ```bash
-git clone https://github.com/<your-username>/raspberry-password-manager.git
+git clone https://github.com/jithinrajtnr/my-password-manager.git
 cd raspberry-password-manager
 npm install
 npm link
